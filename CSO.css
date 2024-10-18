@@ -16,7 +16,7 @@ nav a {
     color: #F8F4F1;;
     text-decoration: none;
     padding: .5em 1em;
-    font-family: "Lucida Console", monospace;
+    font-family: "Georgia", monospace;
 }
 li a:hover{
     background-color: #6F7C44;
@@ -31,5 +31,73 @@ body{
     display: flex; 
     justify-content: center;
     font-size: 25px;
-    font-family: "Lucida Console", monospace;
+    font-family: "Georgia", monospace;
+}
+/* FAQ page*/
+#faq-page {
+    display:flex;
+    justify-content: space-between;
+    background-color: #DDCAB9;
+    padding: 20px;
+}
+
+.faq-header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    font-family: 'Georgia', serif;
+}
+.faq-body {
+    color: #F8F4F1;
+}
+
+.faq-text {
+    width: 50%;
+    color: #4A4A4A;
+    h1 {
+        font-size: 32px;
+    }
+    
+    p {
+        font-size: 18px;
+        line-height: 1.6;
+    }
+    
+    a {
+        color: #6F7C44;
+        text-decoration: underline;
+    }
+}
+
+.faq-image img {
+    width: 550px; 
+    height: 320px; 
+    object-fit: cover;
+    object-position: 45% 45%; 
+    padding-left: 20px;
+}
+
+
+#faq-search {
+    display: flex;
+    justify-content: center;
+    margin: 100px 0;
+}
+
+#faq-search input {
+    padding: 10px;
+    width: 55%;
+    border-radius: 0px;
+    border: 1px solid #9E9D6D;
+}
+
+#faq-search button {
+    padding: 10px 15px;
+    background-color: #9E9D6D;
+    border: none;
+    color: white;
+    border-radius: 0px;
+    cursor: pointer;
+    margin-left: -3px;
 }
