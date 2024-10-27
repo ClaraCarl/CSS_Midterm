@@ -16,7 +16,7 @@ nav a {
     color: #F8F4F1;;
     text-decoration: none;
     padding: .5em 1em;
-    font-family: "Lucida Console", monospace;
+    font-family: "Georgia", monospace;
 }
 li a:hover{
     background-color: #6F7C44;
