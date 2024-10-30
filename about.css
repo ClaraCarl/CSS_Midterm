@@ -1,0 +1,64 @@
+
+#about-meet-symphony {
+    background-color: #e8e8db;
+    margin-top: 20px;
+    margin-right: 20px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    float: right;
+}
+
+.about-intro {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    color: #6F7C44;
+}
+
+.Bela-image img {
+    border: 5px solid #6F7C44; 
+    max-width: 80%;
+    height: auto;
+    margin-right: 20px;
+}
+
+.Red-Rocks-image img {
+    max-width: 100%; 
+    width: 100%; 
+    height: auto;
+    display: block;
+    padding: 0; 
+}
+
+#red-rock {
+    background-color: #fff;
+    padding: 20px;
+    margin: 20px;
+}
+
+#mission-values,#red-rock, #dei-statement, #what-we-offer {
+    background-color: #fff;
+    padding: 20px;
+    margin: 20px;
+    color: #6F7C44;
+}
+
+.mission, .values {
+    margin: 20px 0;
+}
+
+
+ul {
+    padding-left: 20px;
+}
+
+ul li {
+    margin: 10px 0;
+}
+
+ul li strong {
+    color: #6F7C44;
+}
